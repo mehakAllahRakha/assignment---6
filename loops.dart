@@ -249,4 +249,15 @@ void main() {
   //     print("looser");
   //   }
   // }
+  int no = 1;
+  int secnumber = 6;
+  while (no != secnumber) {
+    stdout.write("guess the number: ");
+    no = int.parse(stdin.readLineSync()!);
+    if (no == 6) {
+      print("you win");
+    } else {
+      print("you lose");
+    }
+  }
 }
