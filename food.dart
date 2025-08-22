@@ -143,5 +143,6 @@ void main() {
       }
     var selectedItem = menu[choice];
     print("your order :$selectedItem \n total bill is: $totalBill");
+    print("thak you for visit happy pie food corner😊🍽");
   }
 }
